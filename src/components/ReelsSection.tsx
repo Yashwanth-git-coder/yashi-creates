@@ -80,7 +80,7 @@ const ReelsSection = () => {
         {reels.map((reel, i) => (
           <div
             key={i}
-            className="reel-card group relative flex-shrink-0 w-[220px] md:w-[260px] aspect-[9/16] rounded-2xl overflow-hidden cursor-pointer snap-start"
+            className="reel-card group relative flex-shrink-0 w-[260px] md:w-[320px] lg:w-[380px] aspect-[9/16] rounded-2xl overflow-hidden cursor-pointer snap-start"
             onClick={() => setActiveReel(i)}
           >
             {/* ✅ YouTube thumbnail */}
