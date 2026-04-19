@@ -14,16 +14,22 @@ const reels = [
     color: "from-blue-500/20",
   },
   {
+    title: "Color Grade Magic",
+    category: "Tutorial",
+    youtubeId: "o4OqZkJLzxo",
+    color: "from-blue-500/20",
+  },
+  {
+    title: "Color Grade Magic",
+    category: "Tutorial",
+    youtubeId: "ayyZs9vc88g",
+    color: "from-blue-500/20",
+  },
+  {
     title: "Night City Vibes",
     category: "Cinematic",
     youtubeId: "tiNSBbr_CWY",
     color: "from-purple-500/20",
-  },
-  {
-    title: "Raw to Final",
-    category: "Before & After",
-    youtubeId: "dQw4w9WgXcQ", // replace with real ID
-    color: "from-rose-500/20",
   },
 ];
 
