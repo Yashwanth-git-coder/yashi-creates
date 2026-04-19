@@ -9,37 +9,39 @@ const reels = [
   {
     title: "Color Grade Magic",
     category: "Tutorial",
-    thumbnail: "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=400&h=700&fit=crop",
     color: "from-blue-500/20",
     youtubeId: "nC0AbmFIgAU",
+    thumbnail: `https://img.youtube.com/vi/${youtubeId}/maxresdefault.jpg`,
   },
   {
     title: "Night City Vibes",
     category: "Cinematic",
-    thumbnail: "https://images.unsplash.com/photo-1514306191717-452ec28c7814?w=400&h=700&fit=crop",
     color: "from-purple-500/20",
     youtubeId: "tiNSBbr_CWY",
+    thumbnail: `https://img.youtube.com/vi/${youtubeId}/maxresdefault.jpg`,
   },
   {
     title: "Raw to Final",
     category: "Before & After",
-    thumbnail: "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=400&h=700&fit=crop",
     color: "from-rose-500/20",
     youtubeId: "YOUR_SHORTS_ID_4",
+    thumbnail: `https://img.youtube.com/vi/${youtubeId}/maxresdefault.jpg`,
   },
   {
     title: "Drone Shots",
     category: "Aerial",
-    thumbnail: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=400&h=700&fit=crop",
+    
     color: "from-emerald-500/20",
     youtubeId: "YOUR_SHORTS_ID_5",
+    thumbnail: `https://img.youtube.com/vi/${youtubeId}/maxresdefault.jpg`,
   },
   {
     title: "Slow Mo Edit",
     category: "Effects",
-    thumbnail: "https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=400&h=700&fit=crop",
+    
     color: "from-orange-500/20",
     youtubeId: "YOUR_SHORTS_ID_6",
+    thumbnail: `https://img.youtube.com/vi/${youtubeId}/maxresdefault.jpg`,
   },
 ];
 
@@ -100,7 +102,7 @@ const ReelsSection = () => {
             role="button"
           >
             <img
-              src={reel.thumbnail}
+              src={`https://img.youtube.com/vi/${reel.youtubeId}/maxresdefault.jpg`}
               alt={reel.title}
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               loading="lazy"
