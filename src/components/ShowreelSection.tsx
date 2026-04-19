@@ -55,11 +55,11 @@ const ShowreelSection = () => {
         className="relative group cursor-none overflow-hidden rounded-xl aspect-video max-w-5xl mx-auto"
         role="button"
       >
-        <img
+        {/* <img
           src={showreelThumb}
           alt="Showreel thumbnail"
           className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-        />
+        /> */}
         <div className="absolute inset-0 bg-background/40 transition-all duration-500 group-hover:bg-background/20" />
 
         {/* Play button */}
