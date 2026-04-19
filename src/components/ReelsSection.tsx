@@ -11,7 +11,7 @@ const reels = [
     category: "Tutorial",
     thumbnail: "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=400&h=700&fit=crop",
     color: "from-blue-500/20",
-    youtubeId: "Hxv14yGfFIU",
+    youtubeId: "nC0AbmFIgAU",
   },
   {
     title: "Night City Vibes",
