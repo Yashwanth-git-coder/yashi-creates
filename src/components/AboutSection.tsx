@@ -56,7 +56,7 @@ const AboutSection = () => {
         </h2>
         <p className="about-reveal text-3xl md:text-4xl lg:text-5xl font-light leading-snug tracking-tight mb-6">
           I'm a <span className="text-gradient font-semibold">video editor</span> who believes every frame
-          tells a story. Based in Los Angeles, I work with brands and filmmakers to bring{" "}
+          tells a story. Based in Bangaluru, I work with agency and creators <span className="text-gradient font-semibold">(like, Kuku FM)</span> to bring{" "}
           <span className="text-gradient font-semibold">bold visions</span> to life.
         </p>
         <p className="about-reveal text-lg text-muted-foreground max-w-2xl mb-20">
@@ -65,8 +65,8 @@ const AboutSection = () => {
         </p>
 
         <div className="glow-line about-reveal mb-20" />
-
-        <div className="grid grid-cols-3 gap-8 md:gap-16">
+        </div>
+        {/* <div className="grid grid-cols-3 gap-8 md:gap-16">
           {stats.map((stat, i) => (
             <div key={i} className="about-reveal">
               <div className="text-4xl md:text-6xl font-bold tracking-tighter text-foreground">
@@ -78,8 +78,8 @@ const AboutSection = () => {
               <p className="text-sm text-muted-foreground mt-2 uppercase tracking-wider">{stat.label}</p>
             </div>
           ))}
-        </div>
-      </div>
+        </div> */}
+      
     </section>
   );
 };

@@ -58,22 +58,27 @@ const ContactSection = () => {
             onMouseLeave={handleMouseLeave}
             className="magnetic-btn px-8 py-4 rounded-full border border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-colors duration-300 text-lg"
           >
-            hello@editor.com
+            joinyashwanth1@gmail.com
           </a>
         </div>
 
         <div className="glow-line contact-reveal mb-12" />
 
         <div className="contact-reveal flex flex-wrap gap-8 text-sm">
-          {["Instagram", "Vimeo", "Behance", "LinkedIn"].map((link) => (
+          {[
+            { name: "Instagram", url: "https://www.instagram.com/joinyashi" },
+            { name: "LinkedIn", url: "https://www.linkedin.com/in/yashwanthshivaraju" },
+          ].map((link) => (
             <a
-              key={link}
-              href="#"
+              key={link.name}
+              href={link.url}
+              target="_blank"
+              rel="noopener noreferrer"
               onMouseMove={handleMouseMove}
               onMouseLeave={handleMouseLeave}
               className="magnetic-btn text-muted-foreground hover:text-foreground transition-colors duration-300 uppercase tracking-wider relative group"
             >
-              {link}
+              {link.name}
               <span className="absolute -bottom-1 left-0 w-0 h-px bg-primary transition-all duration-300 group-hover:w-full" />
             </a>
           ))}
