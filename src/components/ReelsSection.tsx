@@ -142,7 +142,7 @@ const ReelsSection = () => {
             onClick={(e) => e.stopPropagation()}
           >
             <iframe
-              src={`https://www.youtube.com/embed/${reels[activeReel].youtubeId}?autoplay=1&mute=1`}
+              src={`https://www.youtube.com/embed/${reels[activeReel].youtubeId}?autoplay=1&rel=0`}
               className="w-full h-full rounded-xl"
               allow="autoplay; encrypted-media"
               allowFullScreen
